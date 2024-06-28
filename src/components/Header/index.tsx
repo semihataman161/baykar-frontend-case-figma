@@ -4,7 +4,7 @@ const Header = () => {
             <h1 className="text-[32px] leading-[35.2px] font-bold">
                 Collers
             </h1>
-            <nav className="flex gap-[16px] text-[16px] leading-[24px] font-medium">
+            <nav className="flex gap-[16px] text-[16px] leading-[24px] tracking-[.5px] font-medium">
                 <a href="#" className="hover:underline py-[9px]">Products</a>
                 <a href="#" className="hover:underline py-[9px]">Solutions</a>
                 <a href="#" className="hover:underline py-[9px]">Pricing</a>
