@@ -1,4 +1,4 @@
-import Sneakers from '@/assets/images/sneakers.svg';
+import Sneakers1 from '@/assets/images/sneakers1.svg';
 import WatchDemo from '@/assets/images/watchDemo.svg';
 
 const FirstSection = () => {
@@ -36,9 +36,8 @@ const FirstSection = () => {
                     </div>
                     <div className="w-full md:w-1/2">
                         <img
-                            src={Sneakers}
-                            alt="sneakers"
-
+                            src={Sneakers1}
+                            alt="sneakers1"
                         />
                     </div>
                 </div>
