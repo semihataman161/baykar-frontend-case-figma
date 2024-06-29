@@ -1,11 +1,16 @@
 import Header from './components/Header';
-import FirstPage from './pages/FirstPage';
+import DiagonalDivider from '@/components/DiagonalDivider';
+import FirstSection from '@/components/FirstSection';
+import SecondSection from '@/components/SecondSection';
 
 function App() {
   return (
     <div className='font-roboto'>
       <Header />
-      <FirstPage />
+      <DiagonalDivider>
+        <FirstSection />
+        <SecondSection />
+      </DiagonalDivider>
     </div>
   )
 }

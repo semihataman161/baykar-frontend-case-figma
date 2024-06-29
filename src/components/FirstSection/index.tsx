@@ -21,7 +21,7 @@ const FirstSection = () => {
                         </div>
                         <div>
                             <div className="flex items-center space-x-4">
-                                <button className="border-2 border-solid border-[#78350F] text-[#78350F] rounded-lg px-4 py-2 text-[20px] leading-[24px] tracking-[.5px] font-medium">
+                                <button className="border-2 border-solid border-[#78350F] text-[#78350F] rounded-lg px-[29px] py-3 text-[20px] leading-[24px] tracking-[.5px] font-medium">
                                     Sign up now
                                 </button>
                                 <button className="flex items-center gap-2 text-[#78350F] text-[16px] leading-[24px] tracking-[.5px] font-medium px-4 py-2">
