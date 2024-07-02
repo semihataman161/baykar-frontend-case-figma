@@ -1,4 +1,3 @@
-import React from 'react';
 import NibhViverra from '@/assets/images/nibhViverra.svg';
 import NibhViverraBackground from '@/assets/images/nibhViverraBackground.svg';
 import CursusAmet from '@/assets/images/cursusAmet.svg';
