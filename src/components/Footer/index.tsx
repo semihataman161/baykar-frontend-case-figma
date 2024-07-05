@@ -9,7 +9,7 @@ import Language from '@/assets/images/langugage.svg';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-[#E2E8F0] font-[16px] leading-[22.4px] py-[80px]">
+    <footer className="bg-gray-900 text-[#E2E8F0] text-[16px] leading-[22.4px] py-[80px]">
       <div className="flex flex-col items-center justify-start">
         <div className="flex gap-[100px]">
           <div className="space-y-7">

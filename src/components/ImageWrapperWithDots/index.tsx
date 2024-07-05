@@ -1,0 +1,28 @@
+interface ImageWrapperWithDotsProps {
+  src: string;
+  alt: string;
+  width: string;
+  height: string;
+}
+
+const ImageWrapperWithDots: React.FC<ImageWrapperWithDotsProps> = ({ src, alt, width, height }) => {
+  return (
+    <div
+      className="relative bg-white border-[5px] border-solid border-white rounded-[20px] pb-[12px] z-40"
+      style={{ boxShadow: "0px 0px 15px 0px #00000012, 0px 25px 50px -12px #00000040", width, height }}
+    >
+      <div className="flex gap-[5px] relative py-[5px] top-[5px] left-[12px]">
+        <div className="w-2 h-2 rounded-full bg-red-500" />
+        <div className="w-2 h-2 rounded-full bg-yellow-500" />
+        <div className="w-2 h-2 rounded-full bg-green-500" />
+      </div>
+      <img
+        className="w-full h-full object-cover rounded-bl-[20px] rounded-br-[20px] pb-[5px]"
+        src={src}
+        alt={alt}
+      />
+    </div>
+  );
+};
+
+export default ImageWrapperWithDots;
