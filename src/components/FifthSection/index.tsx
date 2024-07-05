@@ -1,11 +1,11 @@
-import FifthSectionBackground from '@/assets/images/fifthSectionBackground.svg';
+import SectionBackground from '@/assets/images/fifthSection/sectionBackground.svg';
 
 const FifthSection = () => {
     return (
         <div>
             <img
-                src={FifthSectionBackground}
-                alt="FifthSectionBackground"
+                src={SectionBackground}
+                alt="SectionBackground"
                 className="w-full h-full object-cover"
             />
         </div>

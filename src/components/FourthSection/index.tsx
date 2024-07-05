@@ -1,12 +1,12 @@
 import ImageWrapperWithDots from '../ImageWrapperWithDots';
-import MaratonRunners from '@/assets/images/maratonRunners.svg';
-import CheckIcon from '@/assets/images/checkIcon.svg';
-import RectangleFDE68A from '@/assets/images/rectangleFDE68A.svg';
-import Rectangle0369A1 from '@/assets/images/rectangle0369A1.svg';
-import RectangleB45309 from '@/assets/images/rectangleB45309.svg';
-import Rectangle15803D from '@/assets/images/rectangle15803D.svg';
-import RectangleBE185D from '@/assets/images/rectangleBE185D.svg';
-import RectangleA21CAF from '@/assets/images/rectangleA21CAF.svg';
+import MaratonRunners from '@/assets/images/fourthSection/maratonRunners.svg';
+import CheckIcon from '@/assets/images/fourthSection/checkIcon.svg';
+import RectangleFDE68A from '@/assets/images/fourthSection/rectangleFDE68A.svg';
+import Rectangle0369A1 from '@/assets/images/fourthSection/rectangle0369A1.svg';
+import RectangleB45309 from '@/assets/images/fourthSection/rectangleB45309.svg';
+import Rectangle15803D from '@/assets/images/fourthSection/rectangle15803D.svg';
+import RectangleBE185D from '@/assets/images/fourthSection/rectangleBE185D.svg';
+import RectangleA21CAF from '@/assets/images/fourthSection/rectangleA21CAF.svg';
 
 const FourthSection = () => {
     return (

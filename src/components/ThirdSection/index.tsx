@@ -1,12 +1,12 @@
-import Sneakers2 from '@/assets/images/sneakers2.svg';
-import Sneakers3 from '@/assets/images/sneakers3.svg';
-import Sneakers4 from '@/assets/images/sneakers4.svg';
-import ShoppingCart from '@/assets/images/shoppingCart.svg';
-import PinkCircle from '@/assets/images/pinkCircle.svg';
-import BlueCircle from '@/assets/images/blueCircle.svg';
-import OrangeCircle from '@/assets/images/orangeCircle.svg';
-import GreenCircle from '@/assets/images/greenCircle.svg';
-import PurpleCircle from '@/assets/images/purpleCircle.svg';
+import Sneakers1 from '@/assets/images/thirdSection/sneakers1.svg';
+import Sneakers2 from '@/assets/images/thirdSection/sneakers2.svg';
+import Sneakers3 from '@/assets/images/thirdSection/sneakers3.svg';
+import ShoppingCart from '@/assets/images/thirdSection/shoppingCart.svg';
+import PinkCircle from '@/assets/images/thirdSection/pinkCircle.svg';
+import BlueCircle from '@/assets/images/thirdSection/blueCircle.svg';
+import OrangeCircle from '@/assets/images/thirdSection/orangeCircle.svg';
+import GreenCircle from '@/assets/images/thirdSection/greenCircle.svg';
+import PurpleCircle from '@/assets/images/thirdSection/purpleCircle.svg';
 
 const ThirdSection = () => {
     return (
@@ -21,7 +21,7 @@ const ThirdSection = () => {
                 <div className="flex flex-col md:flex-row gap-10">
                     <div className="relative">
                         <div className="flex-1 rounded-lg shadow-lg border-[1px] border-solid border-[#0F172A] shadow-light-xxl-1 shadow-light-xxl-2 relative z-10">
-                            <img src={Sneakers2} alt="Sneakers3" className="w-full h-auto rounded-lg mb-4" />
+                            <img src={Sneakers1} alt="Sneakers1" className="w-full h-auto rounded-lg mb-4" />
                             <div className='p-6'>
                                 <h2 className="text-[24px] leading-[26.4px] font-bold mb-2">Title</h2>
                                 <p className="text-[18px] leading-[28.8px] mb-4">
@@ -41,7 +41,7 @@ const ThirdSection = () => {
                     </div>
                     <div className="relative">
                         <div className="flex-1 rounded-lg shadow-lg border-[1px] border-solid border-[#0F172A] shadow-light-xxl-1 shadow-light-xxl-2 relative z-10">
-                            <img src={Sneakers3} alt="Sneakers3" className="w-full h-auto rounded-lg mb-4" />
+                            <img src={Sneakers2} alt="Sneakers2" className="w-full h-auto rounded-lg mb-4" />
                             <div className='p-6'>
                                 <h2 className="text-[24px] leading-[26.4px] font-bold mb-2">Title</h2>
                                 <p className="text-[18px] leading-[28.8px] mb-4">
@@ -66,7 +66,7 @@ const ThirdSection = () => {
                     </div>
                     <div className="relative">
                         <div className="flex-1 rounded-lg shadow-lg border-[1px] border-solid border-[#0F172A] shadow-light-xxl-1 shadow-light-xxl-2 relative z-10">
-                            <img src={Sneakers4} alt="Sneakers4" className="w-full h-auto rounded-lg mb-4" />
+                            <img src={Sneakers3} alt="Sneakers3" className="w-full h-auto rounded-lg mb-4" />
                             <div className='p-6'>
                                 <h2 className="text-[24px] leading-[26.4px] font-bold mb-2">Title</h2>
                                 <p className="text-[18px] leading-[28.8px] mb-4">

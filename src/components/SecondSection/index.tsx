@@ -1,9 +1,9 @@
-import NibhViverra from '@/assets/images/nibhViverra.svg';
-import NibhViverraBackground from '@/assets/images/nibhViverraBackground.svg';
-import CursusAmet from '@/assets/images/cursusAmet.svg';
-import CursusAmetBackground from '@/assets/images/cursusAmetBackground.svg';
-import IpsumFermentum from '@/assets/images/ipsumFermentum.svg';
-import IpsumFermentumBackground from '@/assets/images/ipsumFermentumBackground.svg';
+import NibhViverra from '@/assets/images/secondSection/nibhViverra.svg';
+import NibhViverraBackground from '@/assets/images/secondSection/nibhViverraBackground.svg';
+import CursusAmet from '@/assets/images/secondSection/cursusAmet.svg';
+import CursusAmetBackground from '@/assets/images/secondSection/cursusAmetBackground.svg';
+import IpsumFermentum from '@/assets/images/secondSection/ipsumFermentum.svg';
+import IpsumFermentumBackground from '@/assets/images/secondSection/ipsumFermentumBackground.svg';
 
 const SecondSection = () => {
     return (
