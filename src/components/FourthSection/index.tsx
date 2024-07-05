@@ -1,4 +1,4 @@
-import ImageWrapperWithDots from '../ImageWrapperWithDots';
+import ImageWrapper from '../ImageWrapper';
 import MaratonRunners from '@/assets/images/fourthSection/maratonRunners.svg';
 import CheckIcon from '@/assets/images/fourthSection/checkIcon.svg';
 import RectangleFDE68A from '@/assets/images/fourthSection/rectangleFDE68A.svg';
@@ -35,7 +35,7 @@ const FourthSection = () => {
                         Sign up now
                     </button>
                 </div>
-                <ImageWrapperWithDots src={MaratonRunners} alt="Marathon runners" width="520px" height="350px" />
+                <ImageWrapper src={MaratonRunners} alt="MaratonRunners" width="520px" height="350px" />
                 <img
                     src={RectangleFDE68A}
                     alt="RectangleFDE68A"
