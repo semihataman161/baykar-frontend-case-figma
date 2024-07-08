@@ -10,11 +10,11 @@ import Language from '@/assets/images/langugage.svg';
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-[#E2E8F0] text-[16px] leading-[22.4px] py-[80px]">
-      <div className="flex flex-col items-center justify-start">
-        <div className="flex gap-[100px]">
+      <div className="container mx-auto flex flex-col items-center justify-start text-center md:text-left">
+        <div className="flex flex-col md:flex-row gap-[70px] md:gap-[60px]">
           <div className="space-y-7">
             <h5 className="text-white leading-[17.6px] font-medium">Product</h5>
-            <ul className="space-y-7">
+            <ul className="space-y-8">
               <li>
                 <a href="#" className="hover:text-gray-300">
                   Pricing
@@ -102,63 +102,67 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div>
-            <h5 className="text-white leading-[17.6px] font-medium">Get the App</h5>
-            <div className="flex space-x-4 mt-4">
-              <a href="#">
-                <img
-                  src={PlayStore}
-                  alt="PlayStore"
-                />
-              </a>
-              <a href="#">
-                <img
-                  src={AppStore}
-                  alt="AppStore"
-                />
-              </a>
+          <div className="flex flex-col items-center md:items-start justify-between gap-10">
+            <div>
+              <h5 className="text-white leading-[17.6px] font-medium">Get the App</h5>
+              <div className="flex flex-col space-y-4 mt-4 items-center md:items-start">
+                <a href="#">
+                  <img
+                    src={AppStore}
+                    alt="AppStore"
+                  />
+                </a>
+                <a href="#">
+                  <img
+                    src={PlayStore}
+                    alt="PlayStore"
+                  />
+                </a>
+              </div>
             </div>
-            <h5 className="text-white leading-[17.6px] font-medium mt-4">Follow Us</h5>
-            <div className="flex space-x-4 mt-2">
-              <a href="#" className="hover:text-gray-300">
-                <img
-                  src={Youtube}
-                  alt="Youtube"
-                />
-              </a>
-              <a href="#" className="hover:text-gray-300">
-                <img
-                  src={Facebook}
-                  alt="Facebook"
-                />
-              </a>
-              <a href="#" className="hover:text-gray-300">
-                <img
-                  src={Twitter}
-                  alt="Twitter"
-                />
-              </a>
-              <a href="#" className="hover:text-gray-300">
-                <img
-                  src={Instagram}
-                  alt="Instagram"
-                />
-              </a>
-              <a href="#" className="hover:text-gray-300">
-                <img
-                  src={Linkedin}
-                  alt="Linkedin"
-                />
-              </a>
+            <div>
+              <h5 className="text-white leading-[17.6px] font-medium mt-4">Follow Us</h5>
+              <div className="flex space-x-4 mt-2">
+                <a href="#" className="hover:text-gray-300">
+                  <img
+                    src={Youtube}
+                    alt="Youtube"
+                  />
+                </a>
+                <a href="#" className="hover:text-gray-300">
+                  <img
+                    src={Facebook}
+                    alt="Facebook"
+                  />
+                </a>
+                <a href="#" className="hover:text-gray-300">
+                  <img
+                    src={Twitter}
+                    alt="Twitter"
+                  />
+                </a>
+                <a href="#" className="hover:text-gray-300">
+                  <img
+                    src={Instagram}
+                    alt="Instagram"
+                  />
+                </a>
+                <a href="#" className="hover:text-gray-300">
+                  <img
+                    src={Linkedin}
+                    alt="Linkedin"
+                  />
+                </a>
+              </div>
             </div>
           </div>
         </div>
         <div className="w-full border-t border-gray-700 mt-8 pt-4">
-          <div className="flex flex-col md:flex-row items-center justify-evenly">
-            <p className="text-center md:text-left">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-5">
+            <p className="mt-8 md:mt-5">
               Collers @ 2023. All rights reserved.
             </p>
-            <div className="flex space-x-4 mt-2 md:mt-0">
+            <div className="flex space-x-7 mt-5">
               <a href="#" className="hover:text-gray-300">
                 Terms
               </a>
