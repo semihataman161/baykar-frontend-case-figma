@@ -22,7 +22,7 @@ const Header = () => {
 
     return (
         <header className={`flex justify-between items-center text-[#78350F] px-[20px] py-[16px] ${isMobile && showMenu && 'pb-[200px]'} relative`}>
-            <h1 className="text-[24px] leading-[28px] font-bold">
+            <h1 className="text-[32px] leading-[35.2px] font-bold ml-[4%]">
                 Collers
             </h1>
             <div className="relative">
@@ -45,7 +45,7 @@ const Header = () => {
                 )}
             </div>
             {!isMobile &&
-                <nav className="hidden md:flex md:gap-[16px] md:text-[16px] md:leading-[24px] md:tracking-[.5px] md:font-medium">
+                <nav className="hidden md:flex md:gap-[16px] md:text-[16px] md:leading-[24px] md:tracking-[.5px] md:font-medium mr-[4%]">
                     <a href="#" className="hover:underline py-[9px]">Products</a>
                     <a href="#" className="hover:underline py-[9px]">Solutions</a>
                     <a href="#" className="hover:underline py-[9px]">Pricing</a>

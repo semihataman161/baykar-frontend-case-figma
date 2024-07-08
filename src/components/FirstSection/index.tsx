@@ -8,7 +8,7 @@ const FirstSection = () => {
                 <div className="flex flex-col md:flex-row items-center justify-between">
                     <div className="flex flex-col gap-5 w-full md:w-1/2 mb-10 md:mb-0">
                         <div>
-                            <h1 className="text-[72px] leading-[79.2px] font-[800] mb-4 text-center md:text-left">
+                            <h1 className="text-[56px] leading-[61.6px] md:text-[72px] md:leading-[79.2px] font-[800] mb-4 text-center md:text-left">
                                 Collectible Sneakers
                             </h1>
                         </div>

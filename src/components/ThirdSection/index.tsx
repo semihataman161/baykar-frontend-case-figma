@@ -12,9 +12,9 @@ const ThirdSection = () => {
     return (
         <div className="bg-[#0F172A] text-white py-16">
             <div className="container mx-auto px-4 md:px-8">
-                <div className="flex justify-between items-center mb-10">
-                    <h1 className="text-[56px] leading-[61.6px] font-[800]">The best of the best</h1>
-                    <button className="border-[2px] border-solid border-white rounded-[8px] px-[30px] py-[20px] text-[24px] leading-[24px] tracking-[.5px] font-bold">
+                <div className="flex flex-col md:flex-row gap-7 justify-between items-center mb-10">
+                    <h1 className="text-[32px] leading-[35.2px] font-bold md:text-[56px] md:leading-[61.6px] md:font-[800]">The best of the best</h1>
+                    <button className="border-[2px] border-solid border-white rounded-[8px] px-[50px] md:px-[70px] py-[20px] text-[24px] leading-[24px] tracking-[.5px] font-bold">
                         Sign up now
                     </button>
                 </div>
