@@ -1,4 +1,4 @@
-interface ImageWrapperProps {
+interface IImageWrapperProps {
   withDot?: boolean;
   src: string;
   alt: string;
@@ -6,7 +6,7 @@ interface ImageWrapperProps {
   height: string;
 }
 
-const ImageWrapper: React.FC<ImageWrapperProps> = ({ withDot = true, src, alt, width, height }) => {
+const ImageWrapper: React.FC<IImageWrapperProps> = ({ withDot = true, src, alt, width, height }) => {
   return (
     <div
       className="relative bg-white border-[5px] border-solid border-white rounded-[20px] pb-[12px] z-40"

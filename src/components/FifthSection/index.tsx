@@ -1,82 +1,10 @@
 import { useState } from 'react';
 import LeftArrowButton from '@/assets/images/fifthSection/leftArrowButton.svg';
 import RightArrowButton from '@/assets/images/fifthSection/rightArrowButton.svg';
-import Zoomerr from '@/assets/images/fifthSection/zoomerr.svg';
-import Shells from '@/assets/images/fifthSection/shells.svg';
-import ArtVenue from '@/assets/images/fifthSection/artVenue.svg';
-import Waves from '@/assets/images/fifthSection/waves.svg';
-import HellenJummy from '@/assets/images/fifthSection/hellenJummy.svg';
-import HellenaJohn from '@/assets/images/fifthSection/hellenaJohn.svg';
-import DavidOshodi from '@/assets/images/fifthSection/davidOshodi.svg';
-import CharoletteHanlin from '@/assets/images/fifthSection/charoletteHanlin.svg';
+import type { ICompany } from '@/types/fifthSection';
+import { companies } from '@/constants/fifthSection';
 
-interface TeamMember {
-    name: string;
-    title: string;
-    imgSrc: string;
-}
-
-interface Company {
-    logo: string;
-    name: string;
-    description: string;
-    teamMember: TeamMember;
-}
-
-const companies: Company[] = [
-    {
-        logo: ArtVenue,
-        name: 'ArtVenue',
-        description: 'A eget sed posuere dui risus habitasse mauris. Venenatis aliquet id ultrices a lacus. Pretium vehicula pretium posuere justo sed.',
-        teamMember: {
-            name: 'David Oshodi',
-            title: 'Manager',
-            imgSrc: DavidOshodi,
-        },
-    },
-    {
-        logo: Zoomerr,
-        name: 'Zoomerr',
-        description: 'Non risus viverra enim, quis. Eget vitae arcu vivamus sit tellus, viverra turpis lorem. Varius a turpis urna id porttitor.',
-        teamMember: {
-            name: 'Hellen Jummy',
-            title: 'Team Lead',
-            imgSrc: HellenJummy,
-        },
-    },
-    {
-        logo: Shells,
-        name: 'SHELLS',
-        description: 'Aliquet ridiculus mi porta habitant vulputate rhoncus, mattis amet enim. Sit purus venenatis velit semper lectus sed ornare quam nulla.',
-        teamMember: {
-            name: 'Hellena John',
-            title: 'Co-founder',
-            imgSrc: HellenaJohn,
-        },
-    },
-    {
-        logo: ArtVenue,
-        name: 'ArtVenue',
-        description: 'A eget sed posuere dui risus habitasse mauris. Venenatis aliquet id ultrices a lacus. Pretium vehicula pretium posuere justo sed.',
-        teamMember: {
-            name: 'David Oshodi',
-            title: 'Manager',
-            imgSrc: DavidOshodi,
-        },
-    },
-    {
-        logo: Waves,
-        name: 'WAVES',
-        description: 'Magna egestas aliquet ut integer non. Sed diam enim nibh sit. Aliquam laoreet aenean metus nibh eu scelerisque.',
-        teamMember: {
-            name: 'Charolette Hanlin',
-            title: 'CEO',
-            imgSrc: CharoletteHanlin,
-        },
-    },
-];
-
-const CompanyCard = ({ company }: { company: Company }) => {
+const CompanyCard = ({ company }: { company: ICompany }) => {
     return (
         <div className="flex flex-col justify-evenly bg-white shadow-md p-4 border border-solid border-gray-300 w-[384px] h-[430px] rounded-[20px]"
             style={{
@@ -97,7 +25,6 @@ const CompanyCard = ({ company }: { company: Company }) => {
         </div>
     );
 };
-
 
 const ThirdSection = () => {
     const [startIndex, setStartIndex] = useState(1);
@@ -126,7 +53,7 @@ const ThirdSection = () => {
                     </div>
                 </div>
                 <div className="flex flex-col md:flex-row justify-center gap-5 bg-[#FDE68A] h-[430px]">
-                    {companies.slice(startIndex, startIndex + 3).map((company, index) => (
+                    {companies.slice(startIndex, startIndex + 3).map((company: ICompany, index: number) => (
                         <div key={index} className="relative top-[30px]">
                             <CompanyCard company={company} />
                         </div>
