@@ -35,7 +35,7 @@ const FourthSection = () => {
                         Sign up now
                     </button>
                 </div>
-                <ImageWrapper src={MaratonRunners} alt="MaratonRunners" width="520px" height="350px" />
+                <ImageWrapper src={MaratonRunners} alt="MaratonRunners" width="520px" height="350px" mdWidth="520px" mdHeight="350px"/>
                 <img
                     src={RectangleFDE68A}
                     alt="RectangleFDE68A"

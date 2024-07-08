@@ -1,24 +1,14 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import MenuScale from '@/assets/images/menuScale.svg';
+import useIsMobile from "@/hooks/screenSize";
 
 const Header = () => {
     const [showMenu, setShowMenu] = useState(false);
-    const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+    const { isMobile } = useIsMobile();
 
     const toggleMenu = () => {
         setShowMenu(!showMenu);
     };
-
-    useEffect(() => {
-        const handleResize = () => {
-            setIsMobile(window.innerWidth <= 768);
-            if (!isMobile && showMenu) {
-                setShowMenu(false);
-            }
-        };
-        window.addEventListener('resize', handleResize);
-        return () => window.removeEventListener('resize', handleResize);
-    }, [isMobile, showMenu]);
 
     return (
         <header className={`flex justify-between items-center text-[#78350F] px-[20px] py-[16px] ${isMobile && showMenu && 'pb-[200px]'} relative`}>
