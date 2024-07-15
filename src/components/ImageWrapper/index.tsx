@@ -4,11 +4,11 @@ interface IImageWrapperProps {
   alt: string;
   width: string;
   height: string;
-  mdWidth: string;
-  mdHeight: string;
+  mdWidth?: string;
+  mdHeight?: string;
 }
 
-const ImageWrapper: React.FC<IImageWrapperProps> = ({ withDot = true, src, alt, width, height, mdWidth, mdHeight }) => {
+const ImageWrapper: React.FC<IImageWrapperProps> = ({ withDot = true, src, alt, width, height, mdWidth = width, mdHeight = height }) => {
   return (
     <div
       className={`relative bg-white border-[5px] border-solid border-white rounded-[20px] pb-[12px] z-40 w-[${width}] h-[${height}] md:w-[${mdWidth}] md:h-[${mdHeight}]`}
